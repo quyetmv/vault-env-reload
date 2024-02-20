@@ -1,0 +1,6 @@
+{
+  "vault_address": "https://vault.quyet.mv",
+  "vault_token": "s.Q1u2y3e4t5V6V",
+  "vault_secret_path": "bigdata-admin/testing/data/kafka-connector/database_auth",
+  "output_file": "/var/log/env"
+}
