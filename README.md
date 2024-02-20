@@ -1,7 +1,3 @@
-# Project Name
-
-Service Interval Pull from Hashicorp Vault to Environment Variables
-
 ## Description
 
 This project consists of a systemd service that runs at an interval of 10 seconds. It checks for changes in the version of secrets stored in HashiCorp Vault and pulls the corresponding JSON from the Vault. The JSON data is then parsed and written to environment variables, which are used by the system. The configuration for the service is read from a JSON file.
