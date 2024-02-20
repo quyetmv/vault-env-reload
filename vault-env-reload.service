@@ -1,0 +1,13 @@
+[Unit]
+Description=vault-env-reload Application
+After=network.target
+
+[Service]
+ExecStart=/etc/vault-env-reload/bin/vault-env-reload -config /etc/vault-env-reload/config/vault.json
+WorkingDirectory=/etc/vault-env-reload/
+User=root
+Group=root
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
